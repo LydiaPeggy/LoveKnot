@@ -1,0 +1,86 @@
+# Sensitive files
+*.env
+*.env.local
+*.env.*.local
+.envrc
+*.key
+*.pem
+*.secret
+
+# Cursor rules
+.cursor/
+
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build artifacts
+artifacts/
+build/
+dist/
+out/
+.cache/
+coverage/
+types/
+deployments/
+fhevmTemp/
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.flv
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Hardhat
+cache/
+coverage.json
+.solcover.js
+
+# TypeScript
+*.tsbuildinfo
+
+# Package manager locks (keep package-lock.json, ignore others)
+yarn.lock
+pnpm-lock.yaml
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Coverage
+.nyc_output/
+.coverage_artifacts
+.coverage_cache
+.coverage_contracts
+
+# Vercel
+.vercel
+
+# PnP
+.pnp.*
